@@ -1,0 +1,12 @@
+#redis
+spring:
+  redis:
+    host: r-uf673aef3d441884.redis.rds.aliyuncs.com
+    port: 6379
+    database: 5
+    password: Redisdev080602
+    jedis:
+      pool:
+        max-active: 1024
+        max-idle: 200
+        max-wait: 10000
